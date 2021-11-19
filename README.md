@@ -10,4 +10,4 @@
 
 ### 💻 Onde Jogar?
 
-Basta apenas acessar esse link.
+Basta apenas acessar esse **[link.](https://thiagowaib.github.io/passarepassa/ "link.")**
