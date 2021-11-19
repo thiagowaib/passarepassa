@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/reset.css"/>
+    <link rel="stylesheet" href="./styles/main.css"/>
+    <link rel="stylesheet" href="./styles/header.css"/>
+    <link rel="stylesheet" href="./styles/configs.css"/>
+    <link rel="stylesheet" href="./styles/switch.css"/>
+    <link rel="stylesheet" href="./styles/button.css"/>
+    <link rel="stylesheet" href="./styles/footer.css"/>
+    <title>Passa ou Repassa</title>
+</head>
+<body>
+    <article>
+        <header>
+            Passa ou Repassa
+            <span>Mobile</span>
+        </header>
+
+        <section id="configs">
+            <p id="p-som">Aumente o som!</p>
+            <div>
+                <label class="switch">
+                    <input type="checkbox" checked onchange="handleToggle(this)">
+                    <span class="slider round vermelho"></span>
+                </label>
+            </div>
+            <p>Time 
+                <span id="span-time" class="vermelho">
+                    Vermelho
+                </span>
+            </p>
+        </section>
+
+        <div id="button" class="vermelho" onclick="handleButtonPress(this)"></div>
+
+        <footer>
+            <a 
+            href="https://github.com/thiagowaib/passarepassa"
+            target="_blank"
+            >
+            Feito com 💜 aqui
+            </a>.
+        </footer>
+    </article>
+
+    <script src="scripts/toggle.js"></script>
+    <script src="scripts/press.js"></script>
+</body>
+</html>

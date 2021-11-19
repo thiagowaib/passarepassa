@@ -1,0 +1,9 @@
+header{
+    font-size: 2em;
+    text-align: center;
+    margin-top: 8%;
+}
+header span{
+    font-size: .75em;
+    display: block;
+}

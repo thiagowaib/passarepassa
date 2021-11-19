@@ -1,0 +1,9 @@
+footer{
+    margin: 8% auto 0 auto;
+    text-align: center;
+}
+footer a{
+    color: rgb(87, 14, 146);
+    text-decoration: none;
+    font-weight: 700;
+}

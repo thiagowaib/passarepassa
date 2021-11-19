@@ -1,0 +1,24 @@
+#button {
+    width: 70vw;
+    height: 70vw;
+    border-radius: 70vw;
+    margin: 10% auto 0 auto;
+    box-shadow:  26px 26px 53px #bababa,
+             -26px -26px 53px #ffffff;
+    transition: transform .15s;
+}
+
+#button.vermelho{
+    background: linear-gradient(330.81deg, rgb(175, 0, 0) 13.38%, rgb(195, 0, 0) 87.07%);
+    
+}
+#button.azul{
+    background: linear-gradient(330.81deg, #00244E 13.38%, #0067E1 87.07%);
+}
+
+#button:hover{
+    cursor: pointer;
+}
+#button:active{
+    transform: scale(1.1)
+}

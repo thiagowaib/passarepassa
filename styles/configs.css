@@ -1,0 +1,28 @@
+#configs {
+    margin-top: 10%;
+}
+
+#configs div{
+    text-align: center;
+    margin: 5px auto;
+}
+
+#configs p#p-som{
+    font-size: 1.15em;
+}
+
+#configs p {
+    text-align: center;
+    font-size: 1.35em;
+}
+
+#configs p span{
+    font-weight: 600;
+}
+
+#configs p span.vermelho{
+    color: rgb(175, 0, 0)
+}
+#configs p span.azul{
+    color: rgb(0, 26, 175)
+}
